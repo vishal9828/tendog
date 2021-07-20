@@ -1,0 +1,171 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1{
+    padding: 5% 0%;
+
+    font-family: "Montserrat";
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* title section */
+/* #title{
+    
+    
+
+} */
+.title-img{
+    
+    transform: rotate(25deg);
+    /* margin-left: 80px; */
+    position:absolute;
+    
+    
+    
+}
+/* container section */
+.container-fluid{
+    padding: 3% 15% 20%;
+
+}
+/* section */
+.coloured-section{
+    background-color: #ff4c68;
+    color: #FFF;
+}
+.white-section{
+    background-color: #FFF;
+}
+/* nav section */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.5rem;
+}
+.download-btn{
+    margin:5% 3% 5% 0 ;
+}
+
+
+
+/* feature section */
+#features{
+    padding: 7% 15%;
+    
+    position:relative;
+   /* Refer to z-index pdf */
+    /* z-index: 1; */
+
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom:1rem ;
+
+} 
+.icon:hover{
+
+    color: #ff4c68;
+}
+/* testimonials section */
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color:#FFF;
+}
+
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+.carousel-item{
+    padding: 7% 15%;   
+}
+/* press section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center ;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2% ;
+}
+
+/* media query for mobile and tablet responsive website */
+@media(max-width:1060px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+
+
+}
+/* cta section */
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 10% 15%;
+    color: #FFF;
+  
+}
+
+.btn-padding{
+    margin: 5% 2%;
+}
+
+/* footer section */
+#footer{
+    text-align: center;
+    margin: 10% 15%;
+}
+.fab-padding{
+    margin:15px 15px ;
+}
